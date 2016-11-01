@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         llAnak.removeAllViews();
         for (int i = 1; i <= jumlah; i++) {
             View v = LayoutInflater.from(this).inflate(R.layout.layout_anak, llAnak, false);
-            v.setTag("Anak" + 1);
+            v.setTag("Anak" + i);
             llAnak.addView(v);
         }
     }
